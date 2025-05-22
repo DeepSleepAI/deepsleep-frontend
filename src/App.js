@@ -28,7 +28,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await axios.post('https://your-vercel-app.vercel.app/api/chat', {
+      const response = await axios.post('https://deepsleep-6npe.vercel.app', {
         messages: [...messages, userMessage]
       });
       
